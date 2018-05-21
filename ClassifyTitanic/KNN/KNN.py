@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 
+
 class KNN:
     """Supervised learning technique which classifies data based on the
-    the identity of the nearest k neighbors (k nearest neihbors)
+    the identity of the nearest k neighbors (k nearest neighbors)
 
     Parameters:
     ----------
@@ -27,14 +28,14 @@ class KNN:
         numericX = X.select_dtypes(include=numerics)
         numericX = numericX.apply(lambda x: x.fillna(x.mean()))
         numericX = numericX.apply(lambda x: (x - x.min()) / (x.max() - x.min()))
-        prediction= np.empty(numericX.shape[0], dtype = int)
+        prediction = np.empty(numericX.shape[0], dtype=int)
         for i in range(0, numericX.shape[0]):
             tarVec = numericX.iloc[i, :]
             dist = self.refMatrix.apply(lambda x: sum((tarVec - x) ** 2), axis=1)
             matchInd = np.argsort(dist)[:self.k]
             prediction[i] = int(round(self.refIds.iloc[matchInd].mean()))
             print(i)
-        return(prediction)
+        return (prediction)
 
 
 def main():
@@ -57,7 +58,7 @@ def main():
     testPassengerIds = testSet['PassengerId']
     ident = trainingSet['Survived']
     trainingSet = trainingSet.drop(columns=['PassengerId', 'Survived'])
-    testSet = testSet.drop(columns = ['PassengerId'])
+    testSet = testSet.drop(columns=['PassengerId'])
 
     # Make prediciton with KNN
     knnModel = KNN(k=3)
@@ -67,7 +68,7 @@ def main():
     predictions = pd.DataFrame({'Survived': predictions, 'PassengerId': testPassengerIds})
 
     # Write predictions
-    predictions.to_csv('~/Projects/ClassifyTitanic/Predictions/KNNk3.csv', index=False)
+    predictions.to_csv('~/Projects/ClassifyTitanic/KNN/predictions.csv', index=False)
 
 
 if __name__ == "__main__":
