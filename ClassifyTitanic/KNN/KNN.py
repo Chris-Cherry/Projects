@@ -65,10 +65,12 @@ def main():
     knnModel.fit(X=trainingSet, y=ident)
     predictions = knnModel.predict(testSet)
 
-    predictions = pd.DataFrame({'Survived': predictions, 'PassengerId': testPassengerIds})
+    predictions = pd.DataFrame({'Survived': predictions,
+                                'PassengerId': testPassengerIds})
 
     # Write predictions
-    predictions.to_csv('~/Projects/ClassifyTitanic/KNN/predictions.csv', index=False)
+    predictions.to_csv('~/Projects/ClassifyTitanic/KNN/predictions.csv',
+                       index=False)
 
 
 if __name__ == "__main__":
