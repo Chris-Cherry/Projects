@@ -16,5 +16,15 @@ K nearest neighbor was used to predict survival. Missing data was replace with t
 
 ### Decision Tree
 
-Next up is the decision tree. The algorithm recursively splits the data based on the feature and feature threshold that maximizes 'information gain' for any given node in the tree. If the information gain isn't above a given threshold (in this case 0.05) then the node becomes a leaf and the prediction of the leaf is a vote of the training data grouped at the leaf. The function does a bit better than KNN, coming in with 78% classification success rate. With some tweaking it could probably get up to the mid 80% range, but that's not the focus of this project!
+Next up is the decision tree. The algorithm recursively splits the data based on the feature and feature threshold that maximizes 'information gain' for any given node in the tree. If the information gain isn't above a given threshold (in this case 0.05) then the node becomes a leaf and the prediction of the leaf is a vote of the training data grouped at the leaf. The function does a bit better than KNN, coming in with 78% classification success rate. With some tweaking it could probably get up to the mid 80% range, but that's not the focus of this project.
+
+### UMAP
+
+While UMAP isn't directly direct clustering algorithm, it has proven to be a very powerfuly dimension reduction technique within our scRNAseq work. I've implemented UMAP using the python module 'umap-learn'. We will use KNN on the data points 2d embeddings to generate our classifications. 
+
+![Image not supported by browser](ClassifyTitanic/UMAP/umapMinCleaning.png)
+
+After classification we get a score of 75.6%. UMAP didn't improve KNN performance at all. Nonetheless, it provides a better visualization than PCA.
+
+
 
