@@ -1,0 +1,358 @@
+1533570260989	geckodriver	INFO	geckodriver 0.21.0
+1533570261003	geckodriver	INFO	Listening on 127.0.0.1:35597
+1533570261020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PjcPWXHnYghg"
+1533570262159	Marionette	INFO	Listening on port 37345
+1533570262235	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533570372071	geckodriver	INFO	geckodriver 0.21.0
+1533570372074	geckodriver	INFO	Listening on 127.0.0.1:57473
+1533570373079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DGduQXH6ADNI"
+1533570374175	Marionette	INFO	Listening on port 33257
+1533570374183	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9648, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533570482954	geckodriver	INFO	geckodriver 0.21.0
+1533570482957	geckodriver	INFO	Listening on 127.0.0.1:58577
+1533570483974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CpVQJ8t42giX"
+1533570485163	Marionette	INFO	Listening on port 42849
+1533570485185	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533571239223	geckodriver	INFO	geckodriver 0.21.0
+1533571239225	geckodriver	INFO	Listening on 127.0.0.1:47265
+1533571240234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8xPYYwwrthGI"
+1533571241261	Marionette	INFO	Listening on port 34701
+1533571241348	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533571693211	geckodriver	INFO	geckodriver 0.21.0
+1533571693214	geckodriver	INFO	Listening on 127.0.0.1:45175
+1533571694221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rj3mLWh2hwMo"
+1533571695276	Marionette	INFO	Listening on port 42165
+1533571695346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.taboola.com/libtrc/seekingalpha-network/loader.js, line 2: ReferenceError: TRCImpl is not defined
+1533571845987	geckodriver	INFO	geckodriver 0.21.0
+1533571845990	geckodriver	INFO	Listening on 127.0.0.1:40459
+1533571846994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mfDm7TZJ9UtQ"
+1533571848097	Marionette	INFO	Listening on port 34417
+1533571848211	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533572100529	geckodriver	INFO	geckodriver 0.21.0
+1533572100532	geckodriver	INFO	Listening on 127.0.0.1:58157
+1533572101550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iB3HtMYUEDn6"
+1533572102662	Marionette	INFO	Listening on port 38501
+1533572102759	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14927, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533572213550	geckodriver	INFO	geckodriver 0.21.0
+1533572213552	geckodriver	INFO	Listening on 127.0.0.1:43195
+1533572214569	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aLEdUGDbCJkM"
+1533572215744	Marionette	INFO	Listening on port 44321
+1533572215820	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533572965837	geckodriver	INFO	geckodriver 0.21.0
+1533572965839	geckodriver	INFO	Listening on 127.0.0.1:35243
+1533572966843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7DjgASLES02b"
+1533572973996	geckodriver	INFO	geckodriver 0.21.0
+1533572973998	geckodriver	INFO	Listening on 127.0.0.1:44285
+1533572975016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X9DOjHJ92EGv"
+1533572976161	Marionette	INFO	Listening on port 46805
+1533572976225	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533573021717	geckodriver	INFO	geckodriver 0.21.0
+1533573021719	geckodriver	INFO	Listening on 127.0.0.1:51301
+1533573022736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4ztkE2wOnRbC"
+1533573023820	Marionette	INFO	Listening on port 45231
+1533573023844	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18090, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533573105093	geckodriver	INFO	geckodriver 0.21.0
+1533573105096	geckodriver	INFO	Listening on 127.0.0.1:38357
+1533573106113	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AJE7Tp6rJBvN"
+1533573107237	Marionette	INFO	Listening on port 35011
+1533573107329	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533573717830	geckodriver	INFO	geckodriver 0.21.0
+1533573717833	geckodriver	INFO	Listening on 127.0.0.1:40841
+1533573718849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WTGoTn7XKRpP"
+1533573719922	Marionette	INFO	Listening on port 33197
+1533573720004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533573797789	geckodriver	INFO	geckodriver 0.21.0
+1533573797791	geckodriver	INFO	Listening on 127.0.0.1:50159
+1533573798800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lj66TG4CJwXv"
+1533573799920	Marionette	INFO	Listening on port 42747
+1533573800008	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533573828245	geckodriver	INFO	geckodriver 0.21.0
+1533573828247	geckodriver	INFO	Listening on 127.0.0.1:57545
+1533573829256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.71Vq1JTteWY0"
+1533573830343	Marionette	INFO	Listening on port 34651
+1533573830361	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533574716362	geckodriver	INFO	geckodriver 0.21.0
+1533574716365	geckodriver	INFO	Listening on 127.0.0.1:48439
+1533574717382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GcSpJTNcxLjJ"
+1533574718445	Marionette	INFO	Listening on port 44055
+1533574718515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533574848012	geckodriver	INFO	geckodriver 0.21.0
+1533574848015	geckodriver	INFO	Listening on 127.0.0.1:52939
+1533574849023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PylH1FxRbHFR"
+1533574850095	Marionette	INFO	Listening on port 35171
+1533574850169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533574945688	geckodriver	INFO	geckodriver 0.21.0
+1533574945691	geckodriver	INFO	Listening on 127.0.0.1:48309
+1533574946710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5vwOhuKxh90u"
+1533574947890	Marionette	INFO	Listening on port 37043
+1533574947916	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533575468881	geckodriver	INFO	geckodriver 0.21.0
+1533575468885	geckodriver	INFO	Listening on 127.0.0.1:43399
+1533575469902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8IbptGlYmg8n"
+1533575471051	Marionette	INFO	Listening on port 41089
+1533575471138	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533575705324	geckodriver	INFO	geckodriver 0.21.0
+1533575705327	geckodriver	INFO	Listening on 127.0.0.1:60349
+1533575706335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YgBsAV4QidJR"
+1533575707415	Marionette	INFO	Listening on port 38817
+1533575707439	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+JavaScript error: https://cdn.taboola.com/libtrc/seekingalpha-network/loader.js, line 2: ReferenceError: TRCImpl is not defined
+[Child 27687, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 27687, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533575860825	geckodriver	INFO	geckodriver 0.21.0
+1533575860828	geckodriver	INFO	Listening on 127.0.0.1:47603
+1533575861837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rS8uoCsBzrnZ"
+1533575862946	Marionette	INFO	Listening on port 40241
+1533575863073	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533576006921	geckodriver	INFO	geckodriver 0.21.0
+1533576006923	geckodriver	INFO	Listening on 127.0.0.1:37131
+1533576007933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bfMn4dWV6ZMi"
+1533576009128	Marionette	INFO	Listening on port 35369
+1533576009139	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1533576700407	geckodriver	INFO	geckodriver 0.21.0
+1533576700410	geckodriver	INFO	Listening on 127.0.0.1:42289
+1533576700418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.chm69xjaEIRU"
+1533576701491	Marionette	INFO	Listening on port 44187
+1533576701562	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 29628, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 30869, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 28636, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533576741538	geckodriver	INFO	geckodriver 0.21.0
+1533576741543	geckodriver	INFO	Listening on 127.0.0.1:53417
+1533576741551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Uhh9Kugy6UP9"
+1533576742625	Marionette	INFO	Listening on port 33327
+1533576742663	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533577110672	geckodriver	INFO	geckodriver 0.21.0
+1533577110675	geckodriver	INFO	Listening on 127.0.0.1:56939
+1533577111684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.70t5RyR74vkv"
+1533577114214	geckodriver	INFO	geckodriver 0.21.0
+1533577114216	geckodriver	INFO	Listening on 127.0.0.1:55205
+1533577115226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jXPGlvIxvxXS"
+1533577116355	Marionette	INFO	Listening on port 45985
+1533577116442	Marionette	WARN	TLS certificate errors will be ignored for this session
