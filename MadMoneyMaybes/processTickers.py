@@ -109,15 +109,27 @@ class cramerStocks:
 
     def make_graphs(self, best_day):
         nums = self.csr_performance[:, 2:].astype(float)
+        sd = np.std(nums, axis=0)
         dates = [string_to_date(str) for str in self.csr_performance[:, 1]]
         means = np.mean(nums, axis=0)
         days = range(1, nums.shape[1] + 1)
-        by_day = plt.plot(days, means, '-o')
-        by_day.grid(color='k')
-        by_day.xlabel('Days after recommendation')
-        by_day.ylabel('Fold change to SNP500')
-        by_day.title("Cramer's Stock Recommendation Performance Over Time")
+        by_day = plt.figure()
+        by_day_ax = by_day.add_subplot(111)
+        by_day_ax.plot(days, means, '-o')
+        by_day_ax.grid(color='k')
+        by_day_ax.set_xlabel('Days after recommendation')
+        by_day_ax.set_ylabel('Fold change to SNP500')
+        by_day_ax.set_title("Cramer's Stock Recommendation Performance Over Time")
         by_day.savefig('csr_performance_by_day.pdf')
+
+        sd_day = plt.figure()
+        sd_day_ax = sd_day.add_subplot(111)
+        sd_day_ax.plot(days, sd, '-o')
+        sd_day_ax.grid(color='k')
+        sd_day_ax.set_xlabel('Days after recommendation')
+        sd_day_ax.set_ylabel('SD of Fold change to SNP500')
+        sd_day_ax.set_title("SD of Cramer's Stock Recommendation Performance Over Time")
+        sd_day.savefig('csr_performance_by_day_sd.pdf')
 
         # Plot the stock recommendations by date
         print('hi')
