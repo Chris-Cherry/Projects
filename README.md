@@ -1,8 +1,8 @@
 # Projects
 
-## Classify Titanic
+## ML in python
 
-This project is really just an excuse to implement various machine learning algorithms from scratch in python. A training and test data set consistent of ticketing information for passengers on the Titanic was obtained from Kaggle to use in the project. The goal is to predict whether a passenger lived or died based on that ticketing information. 
+This project is really implementations of various machine learning algorithms from scratch in python. A training and test data set consistent of ticketing information for passengers on the Titanic was obtained from Kaggle to use in the project. The goal is to predict whether a passenger lived or died based on that ticketing information. 
 
 ### PCA
 
