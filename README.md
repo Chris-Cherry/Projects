@@ -8,7 +8,7 @@ This project is really implementations of various machine learning algorithms fr
 
 Principle component analysis was carried out primarily to visualize the data in conjunction with the KNN algorithm. It's interesting that the principle components lead to major 6 very clear clusters but it makes sense considering that major sources of variation in the data set are binary or binary like values (sex : male/female, class : 1/2/3). Based on this, it seems like KNN is not going to generate very good predicitions.
 
-![Image not supported by browser](ClassifyTitanic/PCA/pcaMinCleaning.png)
+![Image not supported by browser](MLinPython/PCA/pcaMinCleaning.png)
 
 ### KNN
 
@@ -22,7 +22,7 @@ Next up is the decision tree. The algorithm recursively splits the data based on
 
 While UMAP isn't directly direct clustering algorithm, it has proven to be a very powerfuly dimension reduction technique within our scRNAseq work. I've implemented UMAP using the python module 'umap-learn'. We will use KNN on the data points 2d embeddings to generate our classifications. 
 
-![Image not supported by browser](ClassifyTitanic/UMAP/umapMinCleaning.png)
+![Image not supported by browser](MLinPython/UMAP/umapMinCleaning.png)
 
 After classification we get a score of 75.6%. UMAP didn't improve KNN performance at all. Nonetheless, it provides a better visualization than PCA.
 
