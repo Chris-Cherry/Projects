@@ -26,6 +26,10 @@ While UMAP isn't directly direct clustering algorithm, it has proven to be a ver
 
 After classification we get a score of 75.6%. UMAP didn't improve KNN performance at all. Nonetheless, it provides a better visualization than PCA.
 
+### Perceptron
+
+Writing a perceptron from scratch is a great way to get into the nitty gritty mathematics of neural networks - matrix calculus and all. The perceptron I've implemented is a single layer neural network which allows for variation of any number of nodes in the hidden layer as well as any size of data input, however it only generates a binary classifier output with a single node in the output layer. Training seems to show 
+
 ## Mad Money Maybes
 
 The project started with the idea to compare stock picks from experts (i.e. Mad Money Cramer) with an SNP500 index ETF or something similar. I thought it might be possible to try to ride a price surge from a stock's appearance on the show and determine a best mean flat time to sell after. People have looked at Mad Money stock picks in the past plenty and have determined that his predictions don't outperform the market's average, but I haven't seen anyone trying to specifically examine if/how much of a temporary surge in price there is from Mad Money 'fame'. The basic outline for the project is as follows:
