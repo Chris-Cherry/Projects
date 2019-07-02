@@ -40,11 +40,11 @@ class KNN:
 
 def main():
     trainingSet = pd.read_csv(
-        '~/Documents/Chris_Cherry/Projects/ClassifyTitanic/data/train.csv',
+        '~/Projects/MLinPython/data/train.csv',
         quotechar='"'
     )
     testSet = pd.read_csv(
-        '~/Documents/Chris_Cherry/Projects/ClassifyTitanic/data/test.csv',
+        '~/Projects/MLinPython/data/test.csv',
         quotechar='"'
     )
     
@@ -109,7 +109,7 @@ def main():
     predictions = knnModel.predict(testEmbeddings.drop(columns=['Survival']))
     predictions = pd.DataFrame({'Survived': predictions,
                                 'PassengerId': testEmbeddings.index.values})
-    predictions.to_csv('~/Documents/Chris_Cherry/Projects/ClassifyTitanic/UMAP/predictions.csv',
+    predictions.to_csv('~/Projects/MLinPython/UMAP/predictions.csv',
                        index=False)
     
 if __name__ == "__main__":

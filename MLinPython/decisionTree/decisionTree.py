@@ -164,11 +164,11 @@ class decisionTree:
 
 def main():
     training_set = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/train.csv',
+        '~/Projects/MLinPython/data/train.csv',
         quotechar='"'
     )
     test_set = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/test.csv',
+        '~/Projects/MLinPython/data/test.csv',
         quotechar='"'
     )
 
@@ -200,7 +200,7 @@ def main():
     predictions = tree.predict(test_set)
     predictions = map(int, predictions)
     predictions = pd.DataFrame({'Survived': predictions, 'PassengerId': test_ids})
-    predictions.to_csv('~/Projects/ClassifyTitanic/decisionTree/predictions.csv', index=False)
+    predictions.to_csv('~/Projects/MLinPython/decisionTree/predictions.csv', index=False)
 
 
 if __name__ == "__main__":

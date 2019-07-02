@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 
 def main():
     trainingSet = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/train.csv',
+        '~/Projects/MLinPython/data/train.csv',
         quotechar='"'
     )
     testSet = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/test.csv',
+        '~/Projects/MLinPython/data/test.csv',
         quotechar='"'
     )
 

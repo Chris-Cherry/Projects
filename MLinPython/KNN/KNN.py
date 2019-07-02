@@ -40,11 +40,11 @@ class KNN:
 
 def main():
     trainingSet = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/train.csv',
+        '~/Projects/MLinPython/data/train.csv',
         quotechar='"'
     )
     testSet = pd.read_csv(
-        '~/Projects/ClassifyTitanic/data/test.csv',
+        '~/Projects/MLinPython/data/test.csv',
         quotechar='"'
     )
 
@@ -69,7 +69,7 @@ def main():
                                 'PassengerId': testPassengerIds})
 
     # Write predictions
-    predictions.to_csv('~/Projects/ClassifyTitanic/KNN/predictions.csv',
+    predictions.to_csv('~/Projects/MLinPython/KNN/predictions.csv',
                        index=False)
 
 
