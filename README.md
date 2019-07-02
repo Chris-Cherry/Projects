@@ -28,7 +28,11 @@ After classification we get a score of 75.6%. UMAP didn't improve KNN performanc
 
 ### Perceptron
 
-Writing a perceptron from scratch is a great way to get into the nitty gritty mathematics of neural networks - matrix calculus and all. The perceptron I've implemented is a single layer neural network which allows for variation of any number of nodes in the hidden layer as well as any size of data input, however it only generates a binary classifier output with a single node in the output layer. Training seems to show 
+Writing a perceptron from scratch is a great way to get into the nitty gritty mathematics of neural networks - matrix calculus and all. The perceptron I've implemented is a single layer neural network which allows for variation of any number of nodes in the hidden layer as well as any size of data input and outputes binary classifies (machine mode). After training ~200 epochs, the network seems to have found a local minimum in the search space (see below). 
+
+![Image not supported by browser](MLinPython/perceptron/Errors.pdf)
+
+The network has a 72.2% accuracy rate - similar to KNN.
 
 ## Mad Money Maybes
 
