@@ -118,9 +118,9 @@ def main():
     testSet = testSet.drop(columns=['PassengerId'])
 
     # Make prediciton with KNN
-    perceptronModel = perceptron(h_nodes=3)
+    perceptronModel = perceptron(h_nodes=5)
     perceptronModel.makeNetwork(X=trainingSet, y=ident)
-    perceptronModel.fit(iterations=100)
+    perceptronModel.fit(iterations=200)
 
     # Plot the errors of the fit
     with PdfPages('Errors.pdf') as pdf:
@@ -130,6 +130,7 @@ def main():
         plt.close()
 
     predictions = perceptronModel.predict(testSet)
+    predictions = predictions.astype(int)
 
     predictions = pd.DataFrame({'Survived': predictions,
                                 'PassengerId': testPassengerIds})
