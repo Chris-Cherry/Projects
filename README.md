@@ -40,25 +40,21 @@ The project started with the idea to compare stock picks from experts (i.e. Mad 
 
 #### 1. Get Cramer's historic market picks. Target date: 9/1/18
 
-Plan (8/10/18):
-
 There is an excellent repository of Cramer's stock recommendations (CSRs) all the way through 2006 on seekingalpha. My first attempt will be to scrape the website and get a complete list of all of his bull and bear recommendations. If I can't figure that out, I will simply construct a data set by hand selecting all recommendations within a given time length (i.e. 1 week or so) evenly spaced from the beginning to the end of his recommendations.
 
-Results (8/23/18, written 9/19/18):
+Results:
 
 After trying many scraping options, I did finally figure out how to successfuly scrape seekingalpha. I ended up having to try various techniques (including Spyder, BeautifulSoup4, and Selenium all with various lists of proxy IPs but none of the above worked. Finally, I learned that I could do local redirection with TOR and point firefox at the local redirection. This ended up working but will require configuration on your end to work with the script. I leave that up to you. All in all, I was able to get a complete list of all ticker symbols from Cramer's 'Lightning Round' picks that are available on seekingalpha (which appears to be from June, 2005 onwards).
 
 #### 2. Plot mean changes in stock price as a function of time since his recommendation. Target date: 10/1/18
 
-Plan (8/10/18):
-
 Once we have a list of CSRs by date, we need to see how they compare to the market as a function of time after recommendation. In specific, I want to plot CSRs returns day by day after recommendation. It has been shown that there is a small surge in price the day after Cramer recommends a stack (~1%) but no one seems to have looked at how it tracks over time. As the goal is to see if we can beat an SNP500 index fund, the returns will be normalized against one. Finally, we can pick an optimal sell time to harvest the temporary surge in prices (if one exists).
 
 It would also be interesting to see if/how CSR returns vary as a function of date. It may be the case that CSR had a large impact on the market when his show was newer and less people relied on the internet for information and the effect has tapered off to date. Average returns by date of recommendation can be plotted to see if that's the case.
 
-Results(9/2/18, written 9/19/18):
+Results:
 
-As a quick note, this section will likely continually be updated as I think of new ways that I want to look at the data. As a preliminary look, I did exactly what I described in the plan section. For each stock recommendation that is a.) in my market data set and b.) has at least 60 days of performance data from the recommendation date, I directly compared performance to the SNP500. I then plotted the mean return for CSR normalized against SNP500 performance within the same period as the recommendation (below).
+For each stock recommendation that is a.) in my market data set and b.) has at least 60 days of performance data from the recommendation date, I directly compared performance to the SNP500. I then plotted the mean return for CSR normalized against SNP500 performance within the same period as the recommendation (below).
 
 ![Image not supported by browser](MadMoneyMaybes/csr_performance_by_day.png)
 
@@ -67,15 +63,3 @@ At first glance it seems that there might be a small trend above the SNP500 in t
 ![Image not supported by browser](MadMoneyMaybes/csr_performance_by_day_sd.png)
 
 Even at the low end, the deviation of the picks is ~25 fold changes. Also worth noting, the randomness in the data seems to increase significantly after the ~20 day mark. These seems to support the idea that CSRs are not good long term investment picks. While I don't think it's a good investment strategy, if forced to pick I would pick a date in the first ~20 days with low(er) standard deviation. 10 days after the initial recommendation seems to fit the bill. 
-
-#### 3. See if we can beat Cramer. Target date TBD
-
-At this point, we should have a strong idea for whether we can manipulate public surge in opinion based on public stock exposure. Either way, it would be fun to see if we can beat CSR returns with a simple machine learning algorithm. The idea here would be to see if a machine can learn stock market price patterns prior to significant increases or decreases in stock price on a day to day resolution. 
-
-3a. Pick out all significant increases/decreases in stock price.
-
-Data cleaning will need to be done, although specifics will have to be determined in the future. It's likely that we will need to set a floor for market cap so we don't try to predict day to day noise with penny stocks. Once we have a list of stocks we're interested in tracking, we will look for areas where the dP/dt is very high or very low. These will be flagged as 'events' that we will then try to predict.
-
-3b. Train/test an algorithm to predict events.
-
-The events we found in 3a will be split into a training and test set and then we will use machine learning to try to predict when there will be an increase or decrease in stock price. There's a lot of complexity about the best way to do this which will have to be determined once I start to implement the algorithm, but the basic idea will be to give the algorithm stock market prices as a function of time prior to the start of an 'event' and average increase/decrease within some amount of time as the value to predict. We will then test it and see how our returns look in comparison, again, to an SNP500 index mutual fund or ETF. 
